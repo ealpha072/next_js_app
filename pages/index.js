@@ -4,7 +4,18 @@ import Layout, { siteTitle } from '../components/Layout';
 import utilStyle from '../styles/utills.module.css';
 import styles from '../styles/Home.module.css';
 
-export default function Home() {
+import { getSortedPostsData } from '../lib/posts';
+
+export async function getStaticProps() {
+	const allPostsData = getSortedPostsData();
+	return {
+		props: {
+			allPostsData
+		}
+	}
+}
+
+export default function Home({ allPostsData}) {
   return (
     <Layout home >
 			<Head>
@@ -19,6 +30,20 @@ export default function Home() {
 					(This is a sample website - you’ll be building a site like this on{' '}
 					<a href="https://nextjs.org/learn">our Next.js tutorial</a>.)
 				</p>
+			</section>
+			<section className={`${utilStyle.headingMd} ${utilStyle.padding1px}`}>
+				<h2 className={utilStyle.headingLg}>Blog</h2>
+				<ul className={utilStyle.list}>
+					{allPostsData.map(({ id, date, title }) => (
+						<li className={utilStyle.listItem} key={id}>
+							{title}
+							<br />
+							{id}
+							<br />
+							{date}
+						</li>
+					))}
+				</ul>
 			</section>
 	</Layout>
   )
