@@ -1,2 +1,1 @@
-# next_js_app
-A NextJs App
+This is a starter template for [Learn Next.js](https://nextjs.org/learn).
