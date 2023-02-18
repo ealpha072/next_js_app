@@ -1,0 +1,21 @@
+:root{
+  --colorThemeOne: #537FE7;
+  --colorThemeTwo: #C0EEF2;
+  --background:#ffffff;
+  --colorThemeThree: #181823;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body{
+  max-width: 100vw;
+  min-height: 100vh;
+  overflow-x: hidden;
+  font-size: 0.85rem;
+  background-color: var(--background);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}

@@ -1,0 +1,33 @@
+.header{
+    width:100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--colorThemeTwo);
+}
+
+.header > div{
+    display: flex;
+    align-items: center;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.header h1{
+    font-size: 3rem;
+    padding-left: 1.5rem;
+}
+
+.header div a{
+    border: 2px solid var(--colorThemeThree);
+    margin-right: 12px;
+    border-radius: 2px;
+    font-size: 1.575rem;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    color: var(--colorThemeThree);
+}
+
+.header div a:hover{
+    background-color: var(--colorThemeThree);
+    color: white;
+}

@@ -1,0 +1,36 @@
+.main {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeContainer{
+  text-align: center;
+}
+
+.homeContainer h1{
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+
+.homeContainer h5{
+  font-size: 2rem;
+  margin-top: 2rem;
+  font-weight: lighter;
+}
+
+.homeContainer p{
+  font-size: 2rem;
+  margin-top: 1rem;
+}
+
+.homeContainer a{
+  color: var(--colorThemeOne);
+  text-decoration: none;
+}
+
+.homeContainer a:hover{
+  color: var(--colorThemeTwo);
+}
