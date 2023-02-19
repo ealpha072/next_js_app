@@ -17,8 +17,8 @@ export default function Header() {
             <h1>Alpha Site</h1>
         </div>
         <div>
-            <Link href='/'>Sign Up</Link>
-            <Link href='/'>Login</Link>
+            <Link href='/routes/signup'>Sign Up</Link>
+            <Link href='/routes/login'>Login</Link>
         </div>
     </header>
   )

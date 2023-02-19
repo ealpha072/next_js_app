@@ -19,7 +19,7 @@ export default function Home() {
         <div className={styles.homeContainer}>
           <h1>Welcome to My Application</h1>
           <p>In this website, we will be building a NextJs Application</p>
-          <h5>Press <Link href='/posts/Home'>HERE</Link> to start</h5>
+          <h5>Press <Link href='/routes/Home'>HERE</Link> to start</h5>
         </div>
       </main>
     </>
