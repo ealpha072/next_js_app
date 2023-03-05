@@ -28,7 +28,7 @@ export default function Home() {
         <div className={styles.topDiv}>
           <div className={styles.create}>
             <p>Create &gt; <span>Presentations </span></p>
-            <h1>Online Presentation Maker <br /> for Engaging Presentations </h1>
+            <h1>Online Presentation Maker for Engaging Presentations </h1>
             <button> Create Your Presentation</button>
             <h2>Its free and easy to use</h2>
           </div>

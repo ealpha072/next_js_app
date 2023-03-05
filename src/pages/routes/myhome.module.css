@@ -21,6 +21,7 @@
     padding-top: 2.5rem;
     font-size: 1.875rem;
     font-weight: 200;
+    color: #717274;
 }
 
 .topDiv{
@@ -110,7 +111,6 @@
     margin: var(--marginTop) auto;
 }
 
-
 .featureCont{
     padding: 0 0 0 7%;
     display: flex;
@@ -185,7 +185,10 @@
     }
 
     .intro h6{
+        width: 70%;
+        margin: auto;
         font-size: 1rem;
+        line-height: 20px;
     }
 
     .topDiv {
@@ -212,12 +215,20 @@
         width: 90%;
     }
 
+    .imageContainer {
+        margin-top: 20px;
+    }
 
     .imageContainer img{
         width: 100%;
         height: auto;
         margin-top: 20px;
         position: unset;
+    }
+
+    .chosen{
+        margin-top: 20px;
+        margin-bottom: 0px;
     }
 
     .chosen h1{
@@ -234,14 +245,22 @@
         flex-direction: column;
         margin-top: 20px;
     }
+
     .rightAlign img{
         width: 100%;
         height: auto;
     }
 
+    .imgCont{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
     .featureCont{
-        text-align: center;
-        padding-left: unset;
+        text-align: center !important;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
     }
 
     .featureCont h1{
