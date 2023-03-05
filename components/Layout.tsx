@@ -6,11 +6,10 @@ import styles from './Layout.module.css'
 export default function Layout({children}: {children:React.ReactNode}) {
   return (
     <>
-        <Header />
+          <Header />
           <div className={styles.mainContainer}>
             { children }
           </div>
-        <Footer />
     </>
   )
 }

@@ -21,7 +21,7 @@ export default function login() {
                     <input type="email" placeholder="Enter email address" />
                 </div>
                 <button className={styles.btn}>Continue</button>
-                <h4>Dont have an Account ? <a href="">Signup</a></h4>
+                <h4>Dont have an Account ? <Link href="/routes/signup">Signup</Link></h4>
 
                 <div className={styles.divider}>
                     <div></div>

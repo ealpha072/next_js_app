@@ -15,6 +15,11 @@
     margin-bottom: 10px;
 }
 
+.form p{
+    font-size: 16px;
+    text-align: center;
+}
+
 .formHolder {
     display: flex;
     flex-direction: column;
@@ -40,7 +45,7 @@
     font-size: 1.4rem;
 }
 
-.formHoder input:focus{
+.formHolder input:focus{
     border-color: #10a37f;
 }
 
@@ -49,7 +54,7 @@
     color: #ffffff;
     width: 100%;
     border:none;
-    padding: 20px;
+    padding: 16px;
     font-size: 2rem;
     border-radius: 3px;
     cursor: pointer;
@@ -80,7 +85,8 @@
 
 .divider div{
     border-top: 1px solid #c2c8d0;
-    width: 40%; 
+    width: 42%; 
+    margin: auto;
 }
 
 .divider p{

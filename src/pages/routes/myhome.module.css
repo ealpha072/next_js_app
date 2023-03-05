@@ -22,3 +22,132 @@
     font-size: 1.875rem;
     font-weight: 200;
 }
+
+.topDiv{
+    display: flex;
+    width:90%;
+    margin: 50px auto;
+    overflow: hidden;
+}
+
+.create{
+    width: 50%;
+}
+
+.create > *{
+    margin-top: 10px;
+}
+
+.create p{
+    font-size: 2rem;
+}
+
+.create span{
+    color: var(--colorThemeOne);
+}
+
+.create h1{
+    font-size: 2.875rem;
+    font-weight: 800;
+    line-height: 50px;
+    color: var(--headingColor);
+}
+
+.create button{
+    width: 70%;
+    border: none;
+    border-radius: 3px ;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    margin-top: 10px;
+    background-color: var(--colorThemeOne);
+    text-align: center;
+    color: #fff;
+    font-weight: 600;
+    box-shadow: 0 0 17px 3px rgb(184 184 184 / 50%);
+}
+
+.create h2{
+    font-size: 2rem;
+    font-weight: 400;
+    color: rgb(170, 164, 164);
+}
+
+.imageContainer img{
+    position: relative;
+    right: -50px;
+}
+
+
+.chosen {
+    width: 100%;
+    text-align: center;
+    margin: var(--marginTop) auto;
+}
+
+.chosen h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.chosen span{
+    color: var(--colorThemeOne);
+}
+
+.chosen p{
+    width: 50%;
+    margin: var(--smallMt) auto;
+    font-size: 2rem;
+}
+
+.rightAlign{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: var(--marginTop) auto;
+}
+
+
+.featureCont{
+    padding: 0 0 0 7%;
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.featureCont h1{
+    font-size: 34px;
+    line-height: 44px;
+    color: #293745;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.featureCont p{
+    font-family: lato,sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #717274;
+    max-width: 90%;
+}
+
+.featureCont button{
+    font-family: montserrat,sans-serif;
+    font-size: 1.2rem;
+    background-color: var(--colorThemeOne);
+    cursor: pointer;
+    color: #fff;
+    border-radius: 3px;
+    border: none;
+    font-weight: 400;
+    outline: none;
+    padding: 12px 20px;
+    transition: .3s ease;
+    text-align: center;
+    margin-top: 20px;
+    box-shadow: var(--boxShadow);
+}

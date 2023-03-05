@@ -1,8 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
 :root{
   --colorThemeOne: #537FE7;
   --colorThemeTwo: #C0EEF2;
   --background:#ffffff;
   --colorThemeThree: #181823;
+  --headingColor:#293745;
+  --marginTop:50px;
+  --marginBottom:50px;
+  --smallMt:20px;
+  --boxShadow:0 0 17px 3px rgb(184 184 184 / 50%);
 }
 
 *{
