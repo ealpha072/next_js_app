@@ -1,4 +1,5 @@
 .formContainer{
+    font-family: Lato, sans-serif;
     /* height: 100%;
     display: flex;
     justify-content: center; 
@@ -46,11 +47,16 @@
 }
 
 .formHolder input:focus{
-    border-color: #10a37f;
+    border-color: var(--buttonBlue);
 }
 
+.formHolder input:focus + .formHolder label{
+    color: var(--buttonBlue);
+}
+
+
 .btn {
-    background-color: #10a37f;
+    background-color: var(--buttonBlue);
     color: #ffffff;
     width: 100%;
     border:none;
@@ -99,6 +105,7 @@
     width: 100%;
     padding: 16px;
     font-size: 16px;
+    font-weight: 600;
     border-radius: 3px;
     cursor: pointer;
     margin-top: 10px;
@@ -113,5 +120,16 @@
 
 .btnMore:hover{
     background-color: rgba(0,123,173,.15);
+}
+
+@media screen and (max-width:750px){
+    .formContainer{
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .formContainer .form{
+        width: 90%;
+    }
 }
 

@@ -7,6 +7,7 @@ import Header from "../../../components/Header"
 import ppt from "../../assets/ppt.jpg"
 import ppt1 from "../../assets/ppt1.jpg"
 import ppt2 from "../../assets/ppt2.jpg"
+import ppt3 from "../../assets/ppt3.jpg"
 
 export default function Home() {
   return (
@@ -66,16 +67,38 @@ export default function Home() {
           <div className={styles.featureCont} style={{padding:"0 7%  0 0"}}>
             <h1>Customize every aspect of your presentation with your own images and text</h1>
             <p>
-              Choose from one of our presentation themes with hundreds of 
-              available slide layouts for you to pick from and build a beautiful presentation. 
-              Find slide layouts to fit any type of information you need to communicate within 
-              your presentation and customize them to perfectly fit your brand or topic.
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus qui repellat 
+              numquam earum amet eligendi nobis veniam similique tempora reiciendis consequuntur 
+              maxime, atque repudiandae, modi labore. Voluptates repellendus voluptatibus ratione!
             </p>
             <button>Create Your Presentation</button>
           </div>
           <div className={styles.imgCont}>
             <Image src={ppt2} width={576} height={473} alt="" />
           </div>
+        </div>
+
+        <div className={styles.rightAlign}>
+          <div className={styles.imgCont}>
+            <Image src={ppt3} width={576} height={473} alt="" />
+          </div>
+          <div className={styles.featureCont}>
+            <h1>Build your presentation</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus qui repellat 
+              numquam earum amet eligendi nobis veniam similique tempora reiciendis consequuntur 
+              maxime, atque repudiandae, modi labore. Voluptates repellendus voluptatibus ratione!
+            </p>
+            <button>Create Your Presentation</button>
+          </div>
+        </div>
+
+        <div className={styles.bottomDiv}>
+          <h1>
+            Your <span>presentations</span> deserve to be <span>beautiful</span> and so does the rest of your content
+          </h1>
+          <p>Create visual brand experiences whether you are a seasoned designer or a total novice.</p>
+          <button>Sign Up. Its Free!</button>
         </div>
       </div>
     </>

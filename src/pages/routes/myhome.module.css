@@ -132,10 +132,9 @@
     font-size: 18px;
     line-height: 30px;
     color: #717274;
-    max-width: 90%;
 }
 
-.featureCont button{
+.featureCont button, .bottomDiv button{
     font-family: montserrat,sans-serif;
     font-size: 1.2rem;
     background-color: var(--colorThemeOne);
@@ -150,4 +149,126 @@
     text-align: center;
     margin-top: 20px;
     box-shadow: var(--boxShadow);
+}
+
+.bottomDiv{
+    width: 80%;
+    margin: var(--marginTop) auto;
+    text-align: center;
+    color: var(--headingColor);
+}
+
+.bottomDiv h1{
+    font-size: 38px;
+    line-height: 46px;
+}
+
+.bottomDiv p{
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+
+.bottomDiv button{
+    font-size: 2.2rem;
+    background-color: var(--buttonBlue);
+    color: #fff;
+}
+
+@media screen and (max-width:750px) {
+    .intro{
+        width: 90%;
+    }
+
+    .intro p{
+        font-size: 2.5rem;
+    }
+
+    .intro h6{
+        font-size: 1rem;
+    }
+
+    .topDiv {
+        flex-direction: column;
+        margin: 20px auto;
+    }
+
+    .create{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+    }
+
+    .create p, .create h2{
+        font-size: 1.275rem;
+    }
+
+    .create h1{
+        font-size: 2rem;
+        line-height: 35px;
+    }
+
+    .create button{
+        width: 90%;
+    }
+
+
+    .imageContainer img{
+        width: 100%;
+        height: auto;
+        margin-top: 20px;
+        position: unset;
+    }
+
+    .chosen h1{
+        width: 70%;
+        margin: auto;
+        font-size: 2rem;
+    }
+
+    .chosen p{
+        font-size: 1rem;
+    }
+
+    .rightAlign{
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .rightAlign img{
+        width: 100%;
+        height: auto;
+    }
+
+    .featureCont{
+        text-align: center;
+        padding-left: unset;
+    }
+
+    .featureCont h1{
+        text-align: center;
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    .featureCont p{
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        font-size: 16px;
+        line-height: 25px;
+    }
+
+    .featureCont button{
+        width: 70%;
+        margin: 20px auto 0; 
+    }
+
+    .bottomDiv h1{
+        font-size: 2rem;
+        line-height: 30px;
+    }
+
+    .bottomDiv button{
+        font-size: 1.8rem;
+    }
 }
