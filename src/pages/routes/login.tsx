@@ -1,29 +1,46 @@
 import Link from "next/link"
 import Head from "next/head"
+import Script from "next/script"
 import Layout from "../../../components/Layout"
+import styles from "./Loginsignup.module.css"
 
 export default function login() {
   return (
-    <Layout>
+    <>
         <Head>
             <title>Login</title>
             <meta name="description" content="Login here" />
+            <script src="https://kit.fontawesome.com/49935a21c2.js" crossOrigin="anonymous"></script>
         </Head>
-        <div>
-            <form action="">
-                <div>
-                    <label htmlFor="">Email</label>
-                    <input type="email" placeholder='Email Address' />
+        <div className={styles.formContainer}>
+            <form action="" className={styles.form}>
+                <h2>Welcome Back</h2>
+
+                <div  className={styles.formHolder} >
+                    <label htmlFor="email">Email Address</label>
+                    <input type="email" placeholder="Enter email address" />
                 </div>
-                <div>
-                    <label htmlFor="">Password</label>
-                        <input type="password" placeholder='Email Address' />
+                <button className={styles.btn}>Continue</button>
+                <h4>Dont have an Account ? <a href="">Signup</a></h4>
+
+                <div className={styles.divider}>
+                    <div></div>
+                    <p>OR</p>
+                    <div></div>
                 </div>
+
                 <div>
-                    <Link href='/'>Login <i className='fa fa-arrow-right'></i></Link>
+                    <button className={styles.btnMore}>
+                        <i className="fa-brands fa-google"></i> 
+                        Continue With Google
+                    </button>
+                    <button className={styles.btnMore}>
+                        <i className="fa-brands fa-microsoft"></i> 
+                        Continue with Microsoft Account
+                    </button>
                 </div>
             </form>
         </div>
-    </Layout>
+    </>
   )
 }

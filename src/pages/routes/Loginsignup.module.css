@@ -1,25 +1,111 @@
 .formContainer{
-    height: 100%;
+    /* height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: center; 
+    align-items: center;*/
 }
 
 .formContainer form{
-    width: 50%;
+    width: 25%;
+    margin: auto;
 }
 
-.formContainer form div{
+.form > *{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+.formHolder {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.formHolder label{
+    position: absolute;
+    top: -6px;
+    left: 12px;
+    font-size: 1.2rem;
+    color: #c2c8d0;
+    background-color: #fff;
+    padding-left: 8px;
+    padding-right: 8px;
+}
+
+.formHolder input{
+    border: 1px solid #c2c8d0;
+    border-radius: 3px;
+    outline: none;
+    padding: 20px;
+    font-size: 1.4rem;
+}
+
+.formHoder input:focus{
+    border-color: #10a37f;
+}
+
+.btn {
+    background-color: #10a37f;
+    color: #ffffff;
+    width: 100%;
+    border:none;
+    padding: 20px;
+    font-size: 2rem;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.form h2{
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.form h4{
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+}
+
+.form a{
+    text-decoration: none;
+    color: #10a37f;
+}
+
+.divider{
     display: flex;
     flex-direction: row;
-    margin-top: 2rem;
+    align-items: center;
 }
 
-.formContainer form div label{
-    font-size: 2rem;
-    width: 30%;
+.divider div{
+    border-top: 1px solid #c2c8d0;
+    width: 40%; 
 }
 
-.formContainer form div input{
-    width: 70%;
+.divider p{
+    font-size: 1rem;
+    padding-left: 8px;
+    padding-right: 8px;
 }
+
+.btnMore{
+    width: 100%;
+    padding: 16px;
+    font-size: 16px;
+    border-radius: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    border: 1px solid #c2c8d0;
+    background-color: #fff;
+    text-align: left;
+}
+
+.btnMore i{
+    padding-right: 10px;
+}
+
+.btnMore:hover{
+    background-color: rgba(0,123,173,.15);
+}
+
