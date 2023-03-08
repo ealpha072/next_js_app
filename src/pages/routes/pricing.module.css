@@ -1,6 +1,11 @@
+.mainPricing{
+    background-color: #f8fafb;
+}
+
 .pricingContainer{
-    margin-top: var(--marginTop);
     text-align: center;
+    background-color: #f8fafb;
+    margin-bottom: var(--marginTop);
 }
 
 .pricingContainer > div {
@@ -14,6 +19,7 @@
 }
 
 .pricingContainer h1{
+    padding-top: var(--marginTop);
     color: #293745;
     font-size: 48px;
     font-weight: 800;
@@ -48,4 +54,80 @@
 .buttons button:last-child{
     background-color: #293745;
     color: #fff;
+}
+
+.pricingCardCont{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    margin-bottom: var(--marginTop);
+}
+
+.priceCard {
+    width: 30%;
+    margin: auto;
+    border: 1px solid #dae4ea;
+    padding: 24px 16px 0;
+    border-radius: 6px;
+    background-color: #fff;
+}
+
+.priceCard h1{
+    font-family: Montserrat,sans-serif;
+    color: #293745;
+    margin-bottom: 10px;
+    text-align: left;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.priceCard p{
+    font-family: lato,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    color: #798297;
+    margin-bottom: 24px;
+    height: 78px;
+    text-align: left;
+}
+
+.priceCard h2{
+    font-family: Montserrat,sans-serif;
+    color: #293745;
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.priceCard button{
+    padding: 10px;
+    border-radius: 6px;
+    background-color: var(--buttonBlue);
+    font-family: Montserrat,sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    border: none;
+    color: #fff;
+    width: 80%;
+    cursor: pointer;
+}
+
+.priceCard h3{
+    font-size: 16px;
+    font-weight: 700;
+    color: #798297;
+    margin-top: 20px;
+}
+
+.priceCard ul li{
+    font-family: lato,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #798297;
+    list-style-type: disc;
+    text-indent: 4px;
+    margin-bottom: 22px;
+    margin-left: 40px;
+    line-height: 26px;
 }
