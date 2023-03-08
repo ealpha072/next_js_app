@@ -1,4 +1,6 @@
 import Head from "next/head"
+import Header from "../../../components/Header"
+import styles from './pricing.module.css'
 
 export default function Pricing(){
     return(
@@ -7,20 +9,22 @@ export default function Pricing(){
                 <title>Pricing - Alpha Site</title>
                 <meta name="description" content="Pricing details" />
             </Head>
-            <div>
+            <Header />
+            <div className={styles.pricingContainer}>
                 <div>
                     <h1>Create better content. Faster</h1>
                     <p>
                         Create, manage and design anything in one place 
                         Trusted by leading teams and organizations.
                     </p>
-                    <div>
+                    <div className={styles.buttons}>
                         <button>Monthly</button>
                         <button>Annually</button>
                     </div>
                 </div>
 
             </div>
+            
             <div>
                 <div>
                     <h1>Basic</h1>

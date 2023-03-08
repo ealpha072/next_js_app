@@ -1,0 +1,51 @@
+.pricingContainer{
+    margin-top: var(--marginTop);
+    text-align: center;
+}
+
+.pricingContainer > div {
+    margin-bottom: 10px;
+}
+
+.pricingContainer p{
+    font-size: 17px;
+    color: var(--paragColor);
+    text-align: center;
+}
+
+.pricingContainer h1{
+    color: #293745;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 6px;
+    text-align: center;
+}
+
+.buttons{
+    border: 1px solid #dae4ea;
+    width: 20%;
+    margin: 20px auto;
+    border-radius: 6px;
+}
+
+.buttons button{
+    font-weight: 600;
+    font-size: 16px;
+    font-family: montserrat;
+    text-align: center;
+    border:none;
+    padding: 7px 18px;
+    margin: 6px;
+    cursor: pointer;
+    border-radius: 6px;
+}
+
+.buttons button:first-child{
+    background-color: #fff;
+    color: #3f4759;
+}
+
+.buttons button:last-child{
+    background-color: #293745;
+    color: #fff;
+}
