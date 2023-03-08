@@ -1,6 +1,12 @@
 import Head from "next/head"
+import Link from "next/link"
+import Image from "next/image"
 import Header from "../../../components/Header"
 import styles from './pricing.module.css'
+
+//images
+import img_1 from "../../assets/im1.png"
+import img_2 from "../../assets/img2.png"
 
 export default function Pricing(){
     return(
@@ -84,6 +90,31 @@ export default function Pricing(){
                         </div>
                     </div>
 
+                </div>
+            </div>
+
+            <div className={styles.packageCont}>
+                <div className={styles.packageDiv}>
+                    <div className={styles.smallHolder}>
+                        <h1>Students Package</h1>
+                        <p>Lore ipsum lorem ipsum <br /> lorem lorem ipsum lorem ipsum</p>
+
+                        <Link href="/" >View Pricing</Link>
+                    </div>
+                    <div>
+                        <Image src={img_2} alt="" width={124} height={76} />
+                    </div>
+                </div>
+                <div className={styles.packageDiv}>
+                    <div className={styles.smallHolder}>
+                        <h1>Students Package</h1>
+                        <p>Lore ipsum lorem ipsum <br /> lorem lorem ipsum lorem ipsum</p>
+
+                        <Link href="/" >View Pricing </Link>
+                    </div>
+                    <div>
+                        <Image src={img_1} alt="" width={124} height={76} />
+                    </div>
                 </div>
             </div>
         </>
