@@ -338,4 +338,17 @@
         width: 100%;
         margin: 10px auto;
     }
+
+    .testimonials{
+        flex-direction: column;
+    }
+
+    .testimonials > div{
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .innerChild{
+        width: 90%;
+    }
 }
