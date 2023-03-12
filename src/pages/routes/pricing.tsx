@@ -30,7 +30,6 @@ export default function Pricing(){
                             <button>Annually</button>
                         </div>
                     </div>
-
                 </div>
 
                 <div className={styles.pricingCardCont}>

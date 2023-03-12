@@ -72,11 +72,11 @@
     background-color: #fff;
 }
 
-.priceCard h1, .summaryPrice h1{
+.priceCard h1, 
+.summaryPrice h1{
     font-family: Montserrat,sans-serif;
     color: #293745;
     margin-bottom: 10px;
-    text-align: left;
     font-weight: 600;
     font-size: 20px;
 }
@@ -241,3 +241,57 @@
     margin: auto;
 }
 
+@media screen and (max-width:750px){
+    .pricingContainer h1{
+        font-size: 30px;
+    }
+
+    .pricingContainer p{
+        font-size: 16px;
+    }
+
+    .buttons{
+        width: 80%;
+    }
+
+    .pricingCardCont{
+        flex-direction: column;
+    }
+
+    .priceCard{
+        width: 90%;
+        margin-bottom: 10px;
+    }
+
+    .priceCard h2{
+        font-size: 32px;
+    }
+
+    .packageCont{
+        flex-direction: column;
+    }
+
+    .packageCont > div{
+        margin-bottom: 20px;
+    }
+
+    .womanChartCont{
+        flex-direction: column;
+    }
+
+    .womanChartCont > div:first-child{
+        width:80%;
+        margin: 20px auto;
+    }
+
+    .summaryPriceCont{
+        width: 100%;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .summaryPrice{
+        width: 100%;
+        margin: 10px auto;
+    }
+}
