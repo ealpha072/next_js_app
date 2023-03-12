@@ -8,6 +8,7 @@ import styles from './pricing.module.css'
 import img_1 from "../../assets/im1.png"
 import img_2 from "../../assets/img2.png"
 import img_3 from "../../assets/woman_chart.png"
+import img_4 from "../../assets/person.png"
 
 export default function Pricing(){
     return(
@@ -148,6 +149,61 @@ export default function Pricing(){
                         </div>
                     </div>
                    
+                </div>
+            </div>
+
+            <div className={styles.testimonialsCont}>
+                <div className={styles.testimonials}>
+                    <div>
+                        <div className={styles.innerChild}>
+                            <div>
+                                <Image src={img_4} alt="" width={50} height={50} />
+                                <h1>Alpha Emmanuel Christine</h1>
+                            </div>
+                            <p>
+                                &quot;Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Facere, in culpa! Quae 
+                                omnis nisi cum quidem blanditiis optio iure. 
+                                Voluptatum minus cumque, explicabo perferendis 
+                                porro laudantium necessitatibus atque cupiditate 
+                                et.&quot;
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className={styles.innerChild}>
+                            <div>
+                                <Image src={img_4} alt="" width={50} height={50} />
+                                <h1>Alpha Emmanuel Christine</h1>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Facere, in culpa! Quae 
+                                omnis nisi cum quidem blanditiis optio iure. 
+                                Voluptatum minus cumque, explicabo perferendis 
+                                porro laudantium necessitatibus atque cupiditate 
+                                et.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div>
+                        <div className={styles.innerChild}>
+                            <div>
+                                <Image src={img_4} alt="" width={50} height={50} />
+                                <h1>Alpha Emmanuel Christine</h1>
+                            </div>
+                            <p>
+                                Lorem ipsum dolor sit amet consectetur 
+                                adipisicing elit. Facere, in culpa! Quae 
+                                omnis nisi cum quidem blanditiis optio iure. 
+                                Voluptatum minus cumque, explicabo perferendis 
+                                porro laudantium necessitatibus atque cupiditate 
+                                et.
+                            </p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </>

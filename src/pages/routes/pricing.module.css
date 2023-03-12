@@ -241,6 +241,50 @@
     margin: auto;
 }
 
+.testimonialsCont{
+    margin-bottom: var(--marginTop);
+}
+
+.testimonials{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.testimonials > div {
+    width: 32%;
+    margin: auto;
+    border: 1px solid #dae4ea;
+    border-radius: 12px;
+}
+
+.innerChild{
+    width: 80%;
+    margin: 20px auto;
+}
+
+.innerChild div{
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.innerChild h1{
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 22px;
+    color: var(--headingColor);
+    padding-left: 10px;
+}
+
+.innerChild p{
+    font-size: 16px;
+    font-weight: 500px;
+    line-height: 26px;
+    font-family: lato, sans-serif;
+    color: var(--paragColor);
+}
+
 @media screen and (max-width:750px){
     .pricingContainer h1{
         font-size: 30px;
