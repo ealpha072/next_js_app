@@ -295,7 +295,7 @@
     }
 
     .buttons{
-        width: 80%;
+        width: 70%;
     }
 
     .pricingCardCont{
@@ -313,6 +313,15 @@
 
     .packageCont{
         flex-direction: column;
+        width: 80%;
+    }
+
+    .smallHolder h1{
+        font-size: 28px;
+    }
+
+    .smallHolder p{
+        line-height: 20px;
     }
 
     .packageCont > div{

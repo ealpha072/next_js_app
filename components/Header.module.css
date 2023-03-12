@@ -44,11 +44,16 @@
     }
 
     .header h1{
-        font-size: 2rem;
+        font-size: 20px;
+    }
+    .header img{
+        width: 20px;
+        height: 20px;
     }
 
     .header div a{
         border: 1px solid var(--colorThemeThree);
-        font-size: 1.2rem;
+        font-size: 12px;
+        padding: 10px;
     }
 }
