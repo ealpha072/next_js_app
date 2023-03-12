@@ -7,6 +7,7 @@ import styles from './pricing.module.css'
 //images
 import img_1 from "../../assets/im1.png"
 import img_2 from "../../assets/img2.png"
+import img_3 from "../../assets/woman_chart.png"
 
 export default function Pricing(){
     return(
@@ -115,6 +116,39 @@ export default function Pricing(){
                     <div>
                         <Image src={img_1} alt="" width={124} height={76} />
                     </div>
+                </div>
+            </div>
+
+            <div className={styles.womanChartCont}>
+                <div>
+                    <Image src={img_3} alt="" width={148} height={120} />
+                </div>
+                <div className={styles.summaryPriceCont}>
+                    <div className={styles.summaryPrice}>
+                        <div>
+                            <h1>Basic</h1>
+                            <h2>It &apos;s free</h2>
+                            <p>/month, billed yearly</p>
+                            <button>Start Free</button>
+                        </div>
+                    </div>
+                    <div className={styles.summaryPrice}>
+                        <div>
+                            <h1>Basic</h1>
+                            <h2><span>US</span> $10.50</h2>
+                            <p>/month, billed yearly</p>
+                            <button>Start Free</button>
+                        </div>
+                    </div>
+                    <div className={styles.summaryPrice}>
+                        <div>
+                            <h1>Basic</h1>
+                            <h2><span>US</span> $15.50</h2>
+                            <p>/month, billed yearly</p>
+                            <button>Start Free</button>
+                        </div>
+                    </div>
+                   
                 </div>
             </div>
         </>

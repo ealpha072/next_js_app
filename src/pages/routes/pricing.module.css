@@ -47,7 +47,7 @@
 }
 
 .buttons button:first-child{
-    background-color: #fff;
+    background-color: #f8fafb;
     color: #3f4759;
 }
 
@@ -72,7 +72,7 @@
     background-color: #fff;
 }
 
-.priceCard h1{
+.priceCard h1, .summaryPrice h1{
     font-family: Montserrat,sans-serif;
     color: #293745;
     margin-bottom: 10px;
@@ -92,7 +92,8 @@
     text-align: left;
 }
 
-.priceCard h2{
+.priceCard h2, 
+.summaryPrice h2{
     font-family: Montserrat,sans-serif;
     color: #293745;
     font-weight: 700;
@@ -100,7 +101,8 @@
     margin-bottom: 10px;
 }
 
-.priceCard button{
+.priceCard button,
+.summaryPrice button{
     padding: 10px;
     border-radius: 6px;
     background-color: var(--buttonBlue);
@@ -183,3 +185,59 @@
     text-decoration: none;
     color: var(--buttonBlue);
 }
+
+.womanChartCont{
+    width: 80%;
+    margin: var(--marginTop) auto;
+    display: flex;
+}
+
+.womanChartCont > div:first-child{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.summaryPriceCont{
+    width: 70%;
+    display: flex;
+}
+
+.summaryPrice{
+    width: 30%;
+    border: 1px solid #dae4ea;
+}
+
+.summaryPrice div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 20px auto 50px;
+}
+
+.summaryPrice h1, 
+.summaryPrice h2,
+.summaryPrice p{
+    width: 90%;
+    margin-left: auto;
+}
+
+.summaryPrice h2{
+    margin-bottom:2px;
+}
+
+.summaryPrice p, 
+.summaryPrice span{
+    font-family: lato,sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    color: #798297;
+    margin-bottom: 24px;
+}
+
+.summaryPrice button{
+    width: 80%;
+    margin: auto;
+}
+
