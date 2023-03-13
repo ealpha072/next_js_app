@@ -1,6 +1,21 @@
 export {}
+import express, { Express } from "express";
+import logger from "./utils/logger";
+import middleware from "./utils/middleware";
+import appRouter from "./routes/routes";
 
-const message: string = "Hello world";
+const app:Express = express();
+const PORT:number = 3001
 
-console.log(message)
+
+app.listen(PORT, ():void => {
+	logger.info("Hello world")
+})
+
+app.use(express.json())
+app.use(middleware.logRequest)
+
+app.use("/", appRouter)
+
+app.use(middleware.uknownEndpoint)
 
