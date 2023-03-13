@@ -22,7 +22,8 @@ export default function Home() {
 					<p>Create Beautiful Powerpoints for Modern Presentations</p>
 					<h6>
 						Re-imagining presentations, creating impactful presentations,
-						create powerful Powerpoint presentations with ease. Let you presentations stand out from the rest. Try us today
+						create powerful Powerpoint presentations with ease.
+						Let you presentations stand out from the rest. Try us today
 					</h6>
 				</div>
 

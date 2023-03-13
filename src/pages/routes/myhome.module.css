@@ -18,6 +18,7 @@
 }
 
 .intro h6{
+    font-family: lato, sans-serif;
     padding-top: 2.5rem;
     font-size: 1.875rem;
     font-weight: 200;
@@ -101,6 +102,7 @@
     width: 50%;
     margin: var(--smallMt) auto;
     font-size: 2rem;
+    color: rgb(170, 164, 164);
 }
 
 .rightAlign{
