@@ -15,8 +15,8 @@ export default function signup() {
 				<form action="" className={styles.form}>
 					<h2>Create your Account</h2>
 					<p>
-                        Please note that phone verification is required 
-                        for signup. Your number will only be used to verify 
+                        Please note that phone verification is required
+                        for signup. Your number will only be used to verify
                         your identity for security purposes.
 					</p>
 
@@ -35,11 +35,11 @@ export default function signup() {
 
 					<div>
 						<button className={styles.btnMore}>
-							<i className="fa-brands fa-google"></i> 
+							<i className="fa-brands fa-google"></i>
                             Continue With Google
 						</button>
 						<button className={styles.btnMore}>
-							<i className="fa-brands fa-microsoft"></i> 
+							<i className="fa-brands fa-microsoft"></i>
                             Continue with Microsoft Account
 						</button>
 

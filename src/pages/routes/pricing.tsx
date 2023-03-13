@@ -24,7 +24,7 @@ export default function Pricing(){
 					<div>
 						<h1>Create better content. Faster</h1>
 						<p>
-                            Create, manage and design anything in one place 
+                            Create, manage and design anything in one place
                             Trusted by leading teams and organizations.
 						</p>
 						<div className={styles.buttons}>
@@ -149,7 +149,7 @@ export default function Pricing(){
 							<button>Start Free</button>
 						</div>
 					</div>
-                   
+
 				</div>
 			</div>
 
@@ -162,11 +162,11 @@ export default function Pricing(){
 								<h1>Alpha Emmanuel Christine</h1>
 							</div>
 							<p>
-                                &quot;Lorem ipsum dolor sit amet consectetur 
-                                adipisicing elit. Facere, in culpa! Quae 
-                                omnis nisi cum quidem blanditiis optio iure. 
-                                Voluptatum minus cumque, explicabo perferendis 
-                                porro laudantium necessitatibus atque cupiditate 
+                                &quot;Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Facere, in culpa! Quae
+                                omnis nisi cum quidem blanditiis optio iure.
+                                Voluptatum minus cumque, explicabo perferendis
+                                porro laudantium necessitatibus atque cupiditate
                                 et.&quot;
 							</p>
 						</div>
@@ -179,11 +179,11 @@ export default function Pricing(){
 								<h1>Alpha Emmanuel Christine</h1>
 							</div>
 							<p>
-                                Lorem ipsum dolor sit amet consectetur 
-                                adipisicing elit. Facere, in culpa! Quae 
-                                omnis nisi cum quidem blanditiis optio iure. 
-                                Voluptatum minus cumque, explicabo perferendis 
-                                porro laudantium necessitatibus atque cupiditate 
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Facere, in culpa! Quae
+                                omnis nisi cum quidem blanditiis optio iure.
+                                Voluptatum minus cumque, explicabo perferendis
+                                porro laudantium necessitatibus atque cupiditate
                                 et.
 							</p>
 						</div>
@@ -196,11 +196,11 @@ export default function Pricing(){
 								<h1>Alpha Emmanuel Christine</h1>
 							</div>
 							<p>
-                                Lorem ipsum dolor sit amet consectetur 
-                                adipisicing elit. Facere, in culpa! Quae 
-                                omnis nisi cum quidem blanditiis optio iure. 
-                                Voluptatum minus cumque, explicabo perferendis 
-                                porro laudantium necessitatibus atque cupiditate 
+                                Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Facere, in culpa! Quae
+                                omnis nisi cum quidem blanditiis optio iure.
+                                Voluptatum minus cumque, explicabo perferendis
+                                porro laudantium necessitatibus atque cupiditate
                                 et.
 							</p>
 						</div>

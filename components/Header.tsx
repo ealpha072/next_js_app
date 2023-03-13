@@ -8,7 +8,7 @@ export default function Header() {
 	return (
 		<header className={styles.header}>
 			<div>
-				<Image 
+				<Image
 					src={Logo}
 					alt='App Logo'
 					height={30}
