@@ -3,7 +3,7 @@ import mongoose, { Schema, Document } from "mongoose"
 interface User{
     username:string,
     email:object,
-    password:string,
+    password?:string,
 }
 
 type userDocument = User & Document
@@ -25,7 +25,7 @@ userSchema.set("toJSON", {
 		delete returnedObject.__v;
 		//delete hashed password
 		delete returnedObject.password;
-	},
+	}
 });
 
 const User = mongoose.model("user", userSchema)
